@@ -1,0 +1,690 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+* {
+    text-decoration: none;
+}
+* h1, h2, h3, h4, h5, h6 {
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: "Sen", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+* p, a {
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* Beginning-header */
+header {
+    background-color: #232536;
+    position: fixed;
+    width: 100%;
+    z-index: 20;
+}
+.Links-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 90px;
+}
+.NAV {
+    display: flex;
+}
+.List-links {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    margin-right: 30px;
+}
+.List-links li a {
+    color: white;
+    font-size: 19px;
+    font-weight: 300;
+    padding: 20px 16px 20px 16px;
+}
+.List-links li a:hover {
+    font-weight: 500;
+    background-color: rgb(227 227 227);
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.List-links li a.active {
+    background-color: rgb(227 227 227);
+    
+}
+.Btn-head {
+    background-color: white;
+    color: Black;
+    padding: 19px 50px 19px 50px;
+    border: none;
+    cursor: pointer;
+    width: 210px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.Btn-head:hover {
+    background-color: rgb(227 227 227);;
+}
+.Btn-head p {
+    font-size: 20px;
+}
+/* end-header */
+
+
+/* Beginning-main */
+
+/* <div class="Home-Hero"> - start */
+.Home-Hero {
+    padding-top: 92.5px;
+}
+.Hero-with-computer {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
+.Hero-info {
+    background-color: #18181894;
+    color: white;
+    padding: 162px 90px 230px 90px;
+}
+.subtitle {
+    font-size: 23px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+.Hero-info H1 {
+    font-size: 56px;
+    line-height: 73px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+.p1-info {
+    font-size: 20px;
+    font-weight: 300;
+    padding-bottom: 25px;
+}
+.p1-info a {
+    font-weight: 300;
+    color: #FFD050;
+}
+.p2-info {
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 28px;
+    padding-bottom: 60px;
+}
+.btn-1 {
+    padding: 15px 65px 15px 65px;
+    background-color: #ffd051;
+    color: Black;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.btn-1:hover {
+    background-color: #EDC14A;
+}
+.btn-1 p {
+    font-size: 20px;
+}
+/* <div class="Home-Hero"> - end */
+
+/* <div class="Featured-Posts"> - start */
+.Featured-Posts {
+    margin: 140px 90px 140px 90px;
+    display: flex;
+}
+.Featured-Post {
+    padding-right: 35px;
+}
+.Featured-Post h2 {
+    font-size: 38px;
+    padding-bottom: 35px;
+}
+.Post-Wrapper {
+    display: flex;
+    flex-flow: column;
+    border: 1px solid #f0f0f1;
+    padding: 35px;
+}
+.Name-Date .date {
+    padding: 30px 0px 30px 0px;
+    /* font-weight: 300; */
+}
+.Featured-Info h3 {
+    font-size: 28px;
+    padding-bottom: 40px;
+}
+.Featured-Info h6 {
+    font-size: 17.5px;
+    font-weight: 200;
+    padding-bottom: 40px;
+}
+.btn-2 {
+    background-color: #ffd051;
+    color: Black;
+    border: none;
+    cursor: pointer;
+    width: 230px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.btn-2:hover {
+    background-color: #EDC14A;
+}
+.btn-2 p {
+    padding: 17px;
+    font-size: 21px;
+}
+
+.All-Posts {
+    width: 100%;
+}
+.All-Posts h2 {
+    font-size: 38px;
+}
+.H2-a {
+    display: flex;
+    justify-content: space-between;
+    height: 55px;
+    padding-bottom: 35px;
+}
+.H2-a a {
+    color: #592ea9;
+    font-size: 19px;
+    font-weight: 300;
+    padding-top: 15px;
+}
+.Item-content {
+    padding: 35px 26px 30px 26px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.Item-content:hover {
+    background-color: #FBF6EA;
+    padding: 35px 26px 30px 26px;
+}
+.Item-content:not(.not) {
+    padding: 26px;
+}
+p.date {
+    font-size: 17px;
+    font-weight: 300;
+    padding-bottom: 10px;
+}
+.Item-content p:not(.date) {
+    font-size: 27px;
+}
+p.date a {
+    color: #592ea9;
+}
+/* <div class="Featured-Posts"> - end */
+
+/* <div class="About-Us-and-Our-Mission"> - start */
+.LINE {
+    display: flex;
+    margin: 0px 90px;
+    justify-content: end;
+    position: sticky;
+}
+.yellow {
+    background-color: rgba(255, 208, 80, 1);
+    width: 843px;
+    height: 25px;
+}
+.Purple {
+    background-color: rgba(89, 46, 169, 1);
+    width: 282px;
+    height: 25px;
+}
+
+.About-Us-and-Our-Mission {
+    display: flex;
+    background-color: #f4f0f8;
+    margin: 0px 90px 140px 90px;
+}
+.about-us {
+    padding: 95px 50px 95px 90px;
+}
+.about-us h3 {
+    font-size: 20px;
+    letter-spacing: 3px;
+    padding-bottom: 25px;
+}
+.bold-font-1 {
+    font-size: 33px;
+    font-weight: 600;
+    line-height: 48px;
+}
+.thin-font-1 {
+    color: #6D6E76;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    padding: 20px 0px 25px 0px;
+}
+.about-us a {
+    font-size: 20px;
+}
+
+.our-mission {
+    padding: 95px 92px 95px 50px;
+}
+.our-mission h3 {
+    font-size: 20px;
+    letter-spacing: 3px;
+    padding-bottom: 25px;
+}
+.bold-font-2 {
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 40px;
+}
+.thin-font-2 {
+    color: #6D6E76;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    padding: 20px 0px 25px 0px;
+}
+/* /* <div class="About-Us-and-Our-Mission"> - end */
+
+/* <div class="Choose-a-Catagory"> - start */
+.Choose-a-Catagory {
+    margin: 0px 90px 140px 90px;
+}
+.title-1 {
+    display: flex;
+    justify-content: center;
+    height: 55px;
+    padding-bottom: 60px;
+}
+.title-1 h2 {
+    font-size: 36px;
+    font-weight: 600;
+    padding-bottom: 70px;
+}
+.Cateories-1 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.Item-grupe1 {
+    width: 296px;
+    height: 210px;
+    padding: 40px 0px 20px 40px;
+    border: 1px solid #d3d3d6;;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+.Item-grupe1:hover {
+    background-color: #ffd04f;
+}
+.Icon {
+    background-color: #fbf6ea;
+    border-radius: 10px;
+    width: 48px;
+    height: 48px;
+}
+.Item-grupe1 h4 {
+    padding-top: 20px;
+    font-size: 28px;
+    font-weight: 600;
+}
+.Item-grupe1 p {
+    color: #6D6E76;
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 30px;
+    padding-top: 10px;
+}
+/* <div class="Choose-a-Catagory"> - end */
+
+/* <div class="Special-Past"> - start */
+.Special-Past {
+    display: flex;
+    height: 825px;
+    margin: 150px 90px 140px 90px;
+    align-items: end;
+}
+.Friends-nearby-sea-img {
+    position: absolute;
+    z-index: -1;
+}
+.Content {
+    padding: 105px 0px 105px 105px;
+    background-color: white;
+    width: 806px;
+    margin-left: 605px;
+    position: absolute;
+    z-index: 1;
+}
+.Content h5 {
+    font-size: 21px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    padding-bottom: 20px;
+}
+.Content h2 {
+    font-size: 48px;
+    line-height: 68px;
+}
+.Content p.info {
+    color: #6D6E76;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 35px;
+    padding: 20px 0px 35px 0px;
+}
+.Content .btn-3 {
+    padding: 20px 65px 20px 65px;
+    background-color: #ffd051;
+    color: Black;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.Content .btn-3:hover {
+    background-color: #EDC14A;
+}
+.Content .btn-3 p {
+    font-size: 20px;
+}
+/* <div class="Special-Past"> - end */
+
+/* <div class="List-of-Authors"> - start */
+.List-of-Authors {
+    margin: 0px 90px 110px 90px;
+}
+.title-2 {
+    display: flex;
+    justify-content: center;
+    height: 55px;
+    padding-bottom: 60px;
+}
+.title-2 h2 {
+    font-size: 36px;
+    font-weight: 600;
+    padding-bottom: 70px;
+}
+.Cateories-2 {
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: row-reverse; */
+    flex-wrap: wrap;
+}
+.Item-grupe2 {
+    background-color: #f4f4f4;
+    padding: 40px 58px 40px 58px;
+}
+.Item-grupe2:hover {
+    background-color: #fbf6ea;
+}
+.general-class {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+.border {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+}
+.Item-grupe2 h4 {
+    text-align: center;
+    font-size: 28px;
+}
+.Item-grupe2 p {
+    color: #6D6E76;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 400;
+    padding: 20px 0px 20px 0px;
+}
+.Item-grupe2 p a {
+    color: #6D6E76;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 400;
+}
+.Item-grupe2 .Social-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* <div class="List-of-Authors"> - end */
+
+/* <div class="Logo-component"> - start */
+.Logo-component {
+    display: flex;
+    margin: 0px 90px 100px 90px;
+    justify-content: space-between;
+    align-items: center;
+}
+.Logos-Wrapper {
+    display: flex;
+}
+.Logotype {
+    display: flex;
+    align-items: center;
+    padding: 0px 50px 0px 50px;
+}
+.Featured-in p {
+    font-weight: 300;
+    color: #a7a8ad;
+}
+.Featured-in h4 {
+    font-size: 24px;
+    color: #6d6e76;
+}
+/* <div class="Logo-component"> - end */
+
+/* <div class="Testimonials"> - start */
+.Testimonials {
+    display: flex;
+    margin: 0px 90px 160px 90px;
+    padding: 90px 130px 90px 130px;
+    background-color: #fbf6ea;
+}
+.Heading {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 150px 20px 0px;
+}
+.Heading h3 {
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    margin: 0px 0px 10px 0px;
+}
+.Heading h2 {
+    font-size: 36px;
+    font-weight: 600;
+}
+.Heading h4 {
+    padding-top: 20px;
+    font-size: 18px;
+    font-weight: 300;
+}
+.Messages {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 120px;
+}
+.Messages p {
+    font-size: 25px;
+}
+.Profile {
+    display: flex;
+}
+.elements {
+    display: flex;
+    justify-content: space-between;
+}
+.data-person {
+    padding-left: 20px;
+}
+.data-person h4 {
+    font-size: 22px;
+    color: black;
+}
+.data-person p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #6d6e76;
+}
+.BTNS {
+    display: flex;
+    align-items: center;
+    padding-left: 160px;
+}
+/* <div class="Testimonials"> - end */
+
+/* <div class="Join-our-team"> - start */
+.Join-our-team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 90px 160px 90px;
+}
+.Joining-The_team-and-The_story {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Joining-The_team-and-The_story h2 {
+    font-size: 36px;
+    text-align: center;
+    line-height: 48px;
+    padding-bottom: 20px;
+}
+.Joining-The_team-and-The_story p {
+    font-size: 17px;
+    font-weight: 300;
+    text-align: center;
+    color: #6D6E76;
+    line-height: 28px;
+    padding-bottom: 40px;
+}
+.btn-4 {
+    padding: 15px 50px 15px 50px;
+    background-color: #ffd051;
+    color: Black;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.btn-4:hover {
+    background-color: #EDC14A;
+}
+.btn-4 p {
+    font-size: 20px;
+}
+/* <div class="Join-our-team"> - end */
+
+/* end-main */
+
+
+/* Beginning-footer */
+footer {
+    background-color: #232536;
+}
+.Content-f-er {
+    padding: 70px 90px;
+}
+.Links-list-f-er {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 60px;
+}
+.List-links-f-er {
+    display: flex;
+    list-style: none;
+    /* gap: 25px; */
+}
+.List-links-f-er a {
+    color: white;
+    font-size: 19px;
+    font-weight: 300;
+    padding: 13px;
+}
+.List-links-f-er a:hover {
+    background-color: rgb(227 227 227);
+    color: rgb(0, 0, 0);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.CTA {
+    background-color: #2e3040;
+    height: 295px;
+    display: flex;
+}
+.text {
+    display: inline-block;
+    padding: 90px 80px 95px 70px;
+    color: white;
+}
+.text h2 {
+    font-size: 36px;
+}
+.Form-Subscribe {
+    display: flex;
+    padding-top: 110px;
+    padding-left: 40px;
+}
+.for-data-about-email {
+    height: 68px;
+    width: 370px;
+    font-size: 22px;
+    padding-left: 30px;
+    color: white;
+    background-color: #2e3041;
+    border: 1.5px solid rgba(208, 208, 56, 0.241);
+    outline: none;
+}
+.for-data-about-email::placeholder {
+    font-size: 22px;
+}
+.Btn-5 {
+    margin-left: 30px;
+}
+.Btn-5 .Btn-f-er {
+    background-color: #ffd051;
+    color: Black;
+    padding: 23px 50px 23px 50px;
+    border: none;
+    cursor: pointer;
+    width: 210px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.Btn-5 .Btn-f-er:hover {
+    background-color: #EDC14A;
+    padding: 23 100px;
+    cursor: pointer;
+    border: none;
+}
+.Btn-5 .Btn-f-er p {
+    font-size: 20px;
+}
+.Contact-social-network {
+    display: flex;
+    padding-top: 63px;
+    font-size: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.Contact-Informations p a {
+    color: white;
+    font-weight: 200;
+    font-size: 19px;
+}
+.Social-Wrapper svg {
+    width: 150px;
+    height: 22px;
+}
+/* end-footer */
